@@ -1,0 +1,1 @@
+{"name":"pato-iara","private":true,"type":"module","scripts":{"dev":"node server.js","check":"node --check dist/app.js && node --check dist/components.js && node --check dist/config.js"}}
