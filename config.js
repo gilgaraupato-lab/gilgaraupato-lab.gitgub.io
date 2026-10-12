@@ -18,8 +18,8 @@ export const config = {
  ['Tu sonrisa, la mía.',''], ['De copiloto, mi persona favorita.',''], ['Un beso para guardar.',''], ['Un recuerdo muy nuestro.',''], ['Un descanso con vos.',''], ['Las risas que me guardo.','']
  ].map(([caption,date],i)=>({src:`./photos/photo-${String(i+1).padStart(2,'0')}.jpg`,caption,date,alt:`Patricio e Iara: ${caption}`})),
  videos: [
- {type:'video',src:'./videos/video-01.mp4',poster:'./videos/poster-01.jpg',caption:'Un recuerdo en movimiento.',date:'',alt:'Video de un recuerdo de Patricio e Iara'},
- {type:'video',src:'./videos/video-02.mp4',poster:'./videos/poster-02.jpg',caption:'Y volver a escucharnos.',date:'',alt:'Video de otro momento de Patricio e Iara'}
+ {type:'video',src:'./videos/video-01.mp4',poster:'./videos/poster-01.jpg',caption:'Huevini a la parmeggini.',date:'',alt:'Video de un recuerdo de Patricio e Iara'},
+ {type:'video',src:'./videos/video-02.mp4',poster:'./videos/poster-02.jpg',caption:'El detras de escena.',date:'',alt:'Video de otro momento de Patricio e Iara'}
  ],
  timeline: [
  ['01 JUN 2025','El comienzo de nuestras charlas','Acá empieza el historial que guardamos. Y entre risas, empezaba también algo nuestro.'],
