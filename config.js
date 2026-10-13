@@ -15,7 +15,7 @@ export const config = {
  ['Nuestro pequeño caos.', '28 de agosto de 2026'],
  ['Ni novios eramos...', '18 de junio de 2025'],
  ['Y seguir sumando historias.', '06 de agosto de 2026'],
- ['Tu sonrisa, la mía.',''], ['De copiloto, mi persona favorita.',''], ['Un beso para guardar.',''], ['Un recuerdo muy nuestro.',''], ['Un descanso con vos.',''], ['Las risas que me guardo.','']
+ ['Tu sonrisa, la mía.',''], ['De copiloto, mi persona favorita.',''], ['Un beso para guaedar.',''], ['Un recuerdo muy nuestro.',''], ['Un descanso con vos.',''], ['Las risas que me guardo.','']
  ].map(([caption,date],i)=>({src:`./photos/photo-${String(i+1).padStart(2,'0')}.jpg`,caption,date,alt:`Patricio e Iara: ${caption}`})),
  videos: [
  {type:'video',src:'./videos/video-01.mp4',poster:'./videos/poster-01.jpg',caption:'Huevini a la parmeggini.',date:'',alt:'Video de un recuerdo de Patricio e Iara'},
@@ -34,7 +34,7 @@ export const config = {
  ['Patricio','02/06/2025 · 15:07','te quiero mucho'],
  ['Iara','05/07/2025 · 22:56','q somos novios sjajajaj'],
  ['Iara','11/07/2025 · 23:16','JAJAJAJAJAJA yo te amo a vos'],
- ['Iara','14/07/2025 · 04:23','Yo tamebin te quiero tontito'],
+ ['Iara','14/07/2025 · 04:23','Yo tamebin te quiero tonto'],
  ['Patricio','25/09/2025 · 19:06','por dios como te amo'],
  ['Iara','18/03/2026 · 21:08','te amo'],
  ['Iara','04/05/2026 · 23:54','yo te amo con todo mi corazón']
