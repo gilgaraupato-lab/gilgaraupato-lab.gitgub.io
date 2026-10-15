@@ -3,20 +3,20 @@ export const config = {
  closingPhotos: ['./photos/closing-01.jpg','./photos/closing-02.jpg'],
  start: '2026-03-18T21:00:00-03:00', audio: './audio/wonderwall.mp3',
  photos: [
- ['Una mañana de novios en el cadillal.', '12 de abril de 2026.'],
+ ['Una mañana de novios en el cadillal.', '12 de abril de 2026.', "elegi este recuerdo porque para ambos fue de nuestros dias favoritos, la pasamos super bien en ese desayuno improvisado jajaja."],
  ['Mateando con la gorda.', '12 de abril de 2026.'],
  ['Así, cerquita.', '19 de junio de 2026'],
- ['A la nena le gusta estar alzada', '2 de octubre de 2026.'],
+ ['A la nena le gusta estar alzada', '2 de octubre de 2026.', "creo q no hace falta aclarar pq elegi esa foto jajajja, de nuestras ultimas fotos y alzandote pq es de tus cosas fav (la mia tmb)..."],
  ['De cumple.', '28 de junio 2026'],
  ['La felicidad en lo simple.', '26 de julio de 2026.'],
- ['Siempre del mismo lado.', '10 de octubre de 2026.'],
+ ['Siempre del mismo lado.', '10 de octubre de 2026.', "Aunque este rugbier es de uni me toco una rubia de san martin.Asiq siempre apoyando a la gorda."],
  ['Una fotito en el cine pq te daba verguenza... jajaja', '8 de julio de 2026.'],
- ['Cualquier plan, con vos.', '3 de junio de 2026.'],
+ ['Cualquier plan, con vos.', '3 de junio de 2026.', "Te acordas que yo te decia que registro los lugares con personas?, lucciano claramente tiene tu nombre escrito."],
  ['Nuestro pequeño caos.', '28 de agosto de 2026.'],
- ['Ni novios eramos...', '18 de junio de 2025.'],
+ ['Ni novios eramos...', '18 de junio de 2025.', "Te voy a contar algo q no sabes de ese dia, cuando estabamos por ir a la iglesia para jurar a la bandera la Ximena me dice “no la vas a saludar a tu chica?” yo obvio me hacia el dificil jajajaj y la ximena me convenció me convenció diciendo “ no te da?? “ es lo peor que le podes decir a Patricio Gil Garau"],
  ['Y seguir sumando historias.', '06 de agosto de 2026.'],
- ['De las primeras fotos en la españa...','29 de marzo 2029.'], ['La sorpresa de tu cumple amor.','14 de julio de 2026.'], ['jura a la bandera de Patricio','27 de noviembre de 2026.'], ['Mi primera demostracion de afecto... jajaja','7 de noviembre de 2025.'], ['Ese dia alguien volvio con buzo nuevo.','14 de junio de 2026.'], ['Literalmente nosotros.','28 de agosto de 2026.']
- ].map(([caption,date],i)=>({src:`./photos/photo-${String(i+1).padStart(2,'0')}.jpg`,caption,date,alt:`Patricio e Iara: ${caption}`})),
+ ['De las primeras fotos en la españa...','29 de marzo 2029.'], ['La sorpresa de tu cumple amor.','14 de julio de 2026.'], ['jura a la bandera de Patricio','27 de noviembre de 2026.'], ['Mi primera demostracion de afecto... jajaja','7 de noviembre de 2025.', "Ese dia tenia ganas de regalarte algo, yo sabia q algo material no era lo mismo que algo simbolico como eso y te voy a contar algo, ya por esas epocas empezaba a pensar en elegirte como mi novia."], ['Ese dia alguien volvio con buzo nuevo.','14 de junio de 2026.', "Nose porque me encanta esa foto, me acuerdo que ese dia estaba bastante frio y cuando te di el buzo me mori de ternura por como te quedaba de grande jajaja, tiempo despues lo usaste para salir y descubrimos que te quedaba solo un poquiiito mejor que a mi."], ['Literalmente nosotros.','28 de agosto de 2026.', "Una foto que nos representa a nosotros sin prejuicios, sin importar q digan los demas. Simplemente nosotros y mi hermosa, fachera y acogedora cama."]
+ ].map(([caption,date,description=""],i)=>({src:`./photos/photo-${String(i+1).padStart(2,'0')}.jpg`,caption,date,description,alt:`Patricio e Iara: ${caption}`})),
  videos: [
  {type:'video',src:'./videos/video-01.mp4',poster:'./videos/poster-01.jpg',caption:'Huevini a la parmeggini.',date:'',alt:'Video de un recuerdo de Patricio e Iara'},
  {type:'video',src:'./videos/video-02.mp4',poster:'./videos/poster-02.jpg',caption:'El detras de escena.',date:'',alt:'Video de otro momento de Patricio e Iara'}
