@@ -1,5 +1,5 @@
-import {config} from './config.js?v=recuerdos-20261015';
-import {Cover,Counter,Gallery,Timeline,Stats,Messages,Letter,Closing,Player,Lightbox} from './components.js?v=recuerdos-20261015';
+import {config} from './config.js?v=recuerdo-20261020';
+import {Cover,Counter,Gallery,Timeline,Stats,Messages,Letter,Closing,Player,Lightbox} from './components.js?v=recuerdo-20261020';
 document.documentElement.classList.add('js');
 document.querySelector('#app').innerHTML=[Cover,Counter,Gallery,Timeline,Stats,Messages,Letter,Closing,Player,Lightbox].map(component=>component()).join('');
 const $=s=>document.querySelector(s), reduce=matchMedia('(prefers-reduced-motion: reduce)'), fmt=n=>n.toLocaleString('es-AR');
